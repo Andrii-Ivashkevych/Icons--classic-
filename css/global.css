@@ -1,135 +1,99 @@
-.icons             					 {
-											width: 300px;
-											margin: 0 auto;
-											list-style: none;
-											margin-top: 100px
-										}
-
-.icons:after       					 {
-											clear: both;
-											display: table;
-											content: "";
-										}
-
-.item        							{
-											float: left;
-											width: 77px;
-											height: 77px;
-											margin: 10px;
-											
-											border-radius: 50%;
-											-webkit-border-radius: 50%;
-											-moz-border-radius: 50%;
-											-khtml-border-radius: 50%;
-											behavior: url(border-radius.htc);
-											
-											background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
-											background-image: -moz-linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
-											background-image: -webkit-linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
-											background-image: -o-linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
-											background-image: -ms-linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
-											
-											box-shadow: 0 2px 2px rgba(255,255,232,.5) inset, 1px 2px 4px rgba(0,0,0,.4);
-											-webkit-box-shadow: 0 2px 2px rgba(255,255,232,.5) inset, 1px 2px 4px rgba(0,0,0,.4);
-											-moz-box-shadow: 0 2px 2px rgba(255,255,232,.5) inset, 1px 2px 4px rgba(0,0,0,.4);
-											filter: progid:DXImageTransform.Microsoft.dropshadow(offX=1px, offY=2px, color=rgba(0, 0, 0, .4));
-											
-											text-align: center;
-											line-height: 77px;
-											font-size: 0;
-										}
-
-li:nth-child(1)			 			{
-											background-color: #00A21E;
-										}
-
-li:nth-child(2)		    			{
-											background-color: #B50000;
-										}
-
-li:nth-child(3)			 			{
-											background-color: #FFC600;
-										}
-
-li:nth-child(4)						{
-											background-color: #FF00EA;
-										}
-
-li:nth-child(5)						{
-											background-color: #9E9E9E;
-										}
-
-li:nth-child(6)		 				{
-											background-color: #007AC8;
-										}
-
-li:nth-child(7)					 	{
-											background-color: #00DC29;
-										}
-
-li:nth-child(8)			 			{
-											background-color: #B500A6;
-										}
-
-li:nth-child(9)		 				{
-											background-color: #00F6FF;
-										}
-
-.icon 								{
-											display: inline-block;
-											vertical-align: middle;
-										}
-
-.icon_home 						{
-											width: 45px;
-											height: 41px;
-											background: url(../img/icon-home.png) no-repeat;
-										}	
-
-.icon_trash 						{
-											width: 34px;
-											height: 42px;
-											background: url(../img/icon-trash.png) no-repeat;
-										}
-
-.icon_backspace 				{
-											width: 50px;
-											height: 36px;
-											background: url(../img/icon-backspace.png) no-repeat;
-										}
-
-.icon_music 						{
-											width: 37px;
-											height: 48px;
-											background: url(../img/icon-music.png) no-repeat;
-										}
-
-.icon_wait 						{
-											width: 28px;
-											height: 50px;
-											background: url(../img/icon-wait.png) no-repeat;
-										}
-
-.icon_cloud 						{
-											width: 50px;
-											height: 34px;
-											background: url(../img/icon-cloud.png) no-repeat;
-										}
-										
-.icon_create 						{
-											width: 35px;
-											height: 50px;
-											background: url(../img/icon-create.png) no-repeat;
-										}
-					
-.icon_edit 							{
-											width: 39px;
-											height: 40px;
-											background: url(../img/icon-edit.png) no-repeat;
-										}
-
-.icon_info 							{
-											width: 23px;
-											height: 50px;
-											background: url(../img/icon-info.png) no-repeat;
-										}
+.icons  {
+  width: 300px;
+  margin: 0 auto;
+  list-style: none;
+  margin-top: 100px;
+}
+.icons:after  {
+  clear: both;
+  display: table;
+  content: "";
+}
+.item  {
+  float: left;
+  width: 77px;
+  height: 77px;
+  margin: 10px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
+  box-shadow: 0 2px 2px rgba(255,255,232,.5) inset, 1px 2px 4px rgba(0,0,0,.4);
+  text-align: center;
+  line-height: 77px;
+  font-size: 0;
+}
+li:nth-child(1)  {
+  background-color: #00A21E;
+}
+li:nth-child(2)  {
+  background-color: #B50000;
+}
+li:nth-child(3)  {
+  background-color: #FFC600;
+}
+li:nth-child(4)  {
+  background-color: #FF00EA;
+}
+li:nth-child(5)  {
+  background-color: #9E9E9E;
+}
+li:nth-child(6)  {
+  background-color: #007AC8;
+}
+li:nth-child(7)  {
+  background-color: #00DC29;
+}
+li:nth-child(8)  {
+  background-color: #B500A6;
+}
+li:nth-child(9)  {
+  background-color: #00F6FF;
+}
+.icon  {
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon_home  {
+  width: 45px;
+  height: 41px;
+  background: url(../img/icon-home.png) no-repeat;
+}
+.icon_trash  {
+  width: 34px;
+  height: 42px;
+  background: url(../img/icon-trash.png) no-repeat;
+}
+.icon_backspace  {
+  width: 50px;
+  height: 36px;
+  background: url(../img/icon-backspace.png) no-repeat;
+}
+.icon_music  {
+  width: 37px;
+  height: 48px;
+  background: url(../img/icon-music.png) no-repeat;
+}
+.icon_wait  {
+  width: 28px;
+  height: 50px;
+  background: url(../img/icon-wait.png) no-repeat;
+}
+.icon_cloud  {
+  width: 50px;
+  height: 34px;
+  background: url(../img/icon-cloud.png) no-repeat;
+}
+.icon_create  {
+  width: 35px;
+  height: 50px;
+  background: url(../img/icon-create.png) no-repeat;
+}
+.icon_edit  {
+  width: 39px;
+  height: 40px;
+  background: url(../img/icon-edit.png) no-repeat;
+}
+.icon_info  {
+width: 23px;
+height: 50px;
+background: url(../img/icon-info.png) no-repeat;
+}
